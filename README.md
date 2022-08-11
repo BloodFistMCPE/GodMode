@@ -6,5 +6,5 @@ A PocketMine 4 plugin that allows players to toggle immortality for themselves o
 ## Permission
 | Permission | Description | Default |
 | --- | --- | --- |
-| ```blood.godmode``` | Toggle immortality for yourself or others! | op |
+| ```blood.godmode``` | Toggle immortality for yourself or others. | op |
 
