@@ -11,5 +11,5 @@ commands:
   permission: "godmode"
   
 permissions:
-  godmode:
+  blood.godmode:
     default: op
