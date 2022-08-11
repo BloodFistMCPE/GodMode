@@ -18,8 +18,8 @@ class GodMode extends PluginBase implements Listener {
 	private array $immortals = [];
 	
 	public function onEnable() : void {
-        @mkdir($this->getDataFolder());
-        $this->saveDefaultConfig();
+        	@mkdir($this->getDataFolder());
+       		$this->saveDefaultConfig();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->config = $this->getConfig();
 		$this->getLogger()->info("§aGodMode has been enabled!");
